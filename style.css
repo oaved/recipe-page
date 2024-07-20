@@ -60,63 +60,64 @@ video {
 
 /* Color Utility Classes */
 .bg-neutral-600 {
-    background-color: hsl(30 10 34);
+    background-color: var(--clr-neutral-600);
 }
 .bg-neutral-900 {
-    background-color: hsl(24 5 18);
+    background-color: var(--clr-neutral-900);
 }
 .bg-primary-800 {
-    background-color: hsl(14 45 36);
+    background-color: var(--clr-primary-800);
 }
 .bg-accent-800 {
-    background-color: hsl(332 51 32);
+    background-color: var(--clr-accent-800);
 }
 
 .text-neutral-600 {
-    color: hsl(30 10 34);
+    color: var(--clr-neutral-600);
 }
 .text-neutral-900 {
-    color: hsl(24 5 18);
+    color: var(--clr-neutral-900);
 }
 .text-primary-800 {
-    color: hsl(14 45 36);
+    color: var(--clr-primary-800);
 }
 .text-accent-800 {
-    color: hsl(332 51 32);
+    color: var(--clr-accent-800);
 }
 
 /* Font Size Utility Classes */
 .fs-400 {
-    font-size: 1rem;
+    font-size: var(--fs-400);
 }
 .fs-500 {
-    font-size: 1.5rem;
+    font-size: var(--fs-500);
 }
 .fs-600 {
-    font-size: 2rem;
+    font-size: var(--fs-600);
 }
 .fs-700 {
-    font-size: 2.5rem;
+    font-size: var(--fs-700);
 }
 
 /* Font Family Utility Classes */
 .ff-primary {
-    font-family: Outfit;
+    font-family: var(--ff-primary);
 }
 .ff-accent {
-    font-family: "Young Serif";
+    font-family: var(--ff-accent);
 }
 
 /* Font Weight Utility Classes */
 .fw-normal {
-    font-weight: 400;
+    font-weight: var(--fw-normal);
 }
 .fw-semibold {
-    font-weight: 600;
+    font-weight: var(--fw-semibold);
 }
 .fw-bold {
-    font-weight: 700;
+    font-weight: var(--fw-bold);
 }
+
 
 /* Other */
 .display-inline {
