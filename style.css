@@ -44,9 +44,9 @@ video {
     --clr-accent-800: hsl(332 51 32);
 
     --fs-400: 1rem;
-    --fs-500: 1.5rem;
-    --fs-600: 2rem;
-    --fs-700: 2.5rem;
+    --fs-500: 1.175rem;
+    --fs-600: 1.5rem;
+    --fs-700: 2rem;
 
     --ff-primary: Outfit;
     --ff-accent: "Young Serif";
