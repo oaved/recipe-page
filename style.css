@@ -121,6 +121,22 @@ li {
     border-bottom: 1px solid var(--clr-neutral-150);
 }
 
+.table {
+    padding-bottom: 2rem;
+    padding-top: 0.5rem;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 0.875rem; 
+    padding-inline: 1.5rem;
+}
+
+.row:not(:last-child) {
+    border-bottom: 1px solid var(--clr-neutral-150);
+}
+
 /* UTILITY CLASSES */
 
 /* Color Utility Classes */
