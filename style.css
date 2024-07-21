@@ -103,7 +103,7 @@ li {
     background-color: var(--clr-neutral-10);
     display: grid;
     gap: 2rem;
-    max-width: 48em;
+    max-width: 40em;
     margin-inline: auto ;
 }
 
@@ -227,7 +227,7 @@ li {
 }
 
 /* MEDIA QUERIES */
-@media (min-width: 48em) {
+@media (min-width: 40em) {
     .image {
         width: 92%;
         margin-inline: auto;
